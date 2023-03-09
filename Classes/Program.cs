@@ -8,10 +8,10 @@
             {
                 Model = "Silverado",
                 Make = "Chevrolet",
-                Year = 1
+                Year = 2012
             };
             
-            Console.WriteLine($"Here is the selected car model: {silverado.Model} and its make: {silverado.Make} and it is {silverado.Year} year old");
+            Console.WriteLine($"Here is the selected car model: {silverado.Model} and its make: {silverado.Make} and it is a {silverado.Year}");
         }
     }
 }
